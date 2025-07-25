@@ -2,8 +2,8 @@ basePath: /api
 host: localhost:8080
 info:
   contact: {}
-  description: This is a sample server celler server.
-  title: Swagger Example API
+  description: This is a vercel demo API using Gin.
+  title: Vercel Gin Demo API
   version: "1.0"
 paths:
   /ping:

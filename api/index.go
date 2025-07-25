@@ -8,7 +8,6 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	"go-demo/docs"
-	_ "go-demo/docs"
 )
 
 var db = make(map[string]string)
@@ -25,9 +24,9 @@ func pingHandler(c *gin.Context) {
 	c.String(http.StatusOK, "pong")
 }
 
-// @title           Swagger Example API
+// @title           Vercel Gin Demo API
 // @version         1.0
-// @description     This is a sample server celler server.
+// @description     This is a vercel demo API using Gin.
 // @host      localhost:8080
 // @BasePath  /api
 func SetupRouter() *gin.Engine {
